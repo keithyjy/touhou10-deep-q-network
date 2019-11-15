@@ -44,4 +44,4 @@ Work in progress:
 9. key_manipulation.py - Code to make virtual key presses. Adopted from [StackOverflow answer](https://stackoverflow.com/questions/13564851/how-to-generate-keyboard-events-in-python)
 10. stack_frames.py - Stacks four frames together/add the newest frame to stack and returns the stack.
 11. touhou10.yml - Environment file for running the agent
-12. DQN.h5 - File of weights for the network
+12. DQN.h5 - File of weights for the network 
