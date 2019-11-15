@@ -35,7 +35,7 @@ class Memory:
             if i == 0:
                 # Get the initial state
                 state = agent.get_state(agent.win_handle)
-                # Preprocess the frame
+                # Preprocess the frame 
                 state = agent.preprocess_state(state)
                 stack_size = 4
                 stack = deque([np.zeros((92, 92), dtype=np.int) for i in range(stack_size)], maxlen=4)
