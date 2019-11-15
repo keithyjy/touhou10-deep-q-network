@@ -1,4 +1,4 @@
-from ctypes import windll, c_ulong, byref, create_string_buffer, sizeof
+from ctypes import windll, c_ulong, byref, create_string_buffer, sizeof 
 from struct import unpack
 from .Entities import *
 
