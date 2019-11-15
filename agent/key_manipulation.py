@@ -1,4 +1,4 @@
-
+ 
 # Credits for this solution and code:
 # https://stackoverflow.com/questions/13564851/how-to-generate-keyboard-events-in-python
 # http://stackoverflow.com/questions/14489013/simulate-python-keypresses-for-controlling-a-game
