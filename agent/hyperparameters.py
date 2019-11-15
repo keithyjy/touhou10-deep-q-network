@@ -18,3 +18,4 @@ gamma = 0.95 # Set a discount rate of 0.95 so that agent will tend to long term 
 # For experience replay
 # Need to initialize Memory to store at least batch_size number of experiences at the startz68z
 max_mem_size = 30000 # Total number of experiences that can be kept in memory
+ 
