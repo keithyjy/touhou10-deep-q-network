@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np 
 from collections import deque
 
 def stack_frames(stack, new_state, is_new_episode):
