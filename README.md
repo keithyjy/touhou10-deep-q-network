@@ -24,7 +24,13 @@ python Train_Model.py
 4. Run Train_Model.py
 
 ## Description
-A screenshot is taken at every step and fed into the DQN and the agent takes either a random action or predicts an action to take using the model.
+A screenshot is taken at every step, pre-processed and stacked with three other frames. This is fed into the DQN and the agent takes either a random action with decaying probability or predicts an action to take using the model. 
+
+Work in progress:
+* Agent is currently unable to automatically restart training on some occasions due to lag times introduced the hardware.
+* Use a double deep Q-network instead to avoid overestimation of Q-values
+* Implement prioritized experience replay instead as some experiences may be more important to train on
+* Implement the usage of 'Bombs' (special attacks) in the agent
 
 ## Files
 1. Train_Model.py - Driver method with logic to play the game and train the network
