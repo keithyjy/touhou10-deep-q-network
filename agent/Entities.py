@@ -1,4 +1,4 @@
-class Entity:
+class Entity: 
     def __init__(self, position, velocity, width, height):
         # Store position as a tuple
         self.position = position
