@@ -23,7 +23,7 @@ class DQNetwork:
         self.model = models.Sequential()
 
         # Output is 90x90x32
-
+ 
         self.model.add(layers.Conv2D(32, (3,3), activation='relu',input_shape=(92,92,4)))
 
         # Output is 45x45x32
