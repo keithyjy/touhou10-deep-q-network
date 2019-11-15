@@ -1,5 +1,5 @@
 name: touhou10new
-channels:
+channels: 
   - defaults
 dependencies:
   - _tflow_select=2.3.0=mkl
