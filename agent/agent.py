@@ -2,7 +2,7 @@ from .hyperparameters import *
 from .key_manipulation import *
 from .data_processor import *
 from .stack_frames import *
-from .Entities import *
+from .Entities import * 
 from .find_process import *
 from .DQNetwork import *
 import win32gui
